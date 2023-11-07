@@ -1,2 +1,2 @@
 # SQLExercises
-SQL queries which I wrote for practice
+SQL queries I wrote for practice.

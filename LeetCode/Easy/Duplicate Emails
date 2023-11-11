@@ -39,7 +39,7 @@ Output:
 +---------+
 Explanation: a@b.com is repeated two times.
 
-#Solution by Shlomi Kiko
+#Solution by: Shlomi Kiko
 #LinkedIn: https://www.linkedin.com/in/shlomikiko/
 
 SELECT email AS Email FROM Person

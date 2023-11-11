@@ -43,7 +43,7 @@ Output:
 Explanation: Joe is the only employee who earns more than his manager.
 
 ------------------------------------------------------------------------
-#Solution by Shlomi Kiko
+#Solution by: Shlomi Kiko
 #LinkedIn: https://www.linkedin.com/in/shlomikiko/
 
 SELECT e.name AS Employee FROM Employee AS e

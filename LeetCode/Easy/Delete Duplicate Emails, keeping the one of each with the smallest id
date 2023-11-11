@@ -45,7 +45,7 @@ Output:
 Explanation: john@example.com is repeated two times. We keep the row with the smallest Id = 1.
 
 
-#Solution by Shlomi Kiko
+#Solution by: Shlomi Kiko
 #LinkedIn: https://www.linkedin.com/in/shlomikiko/
 
 DELETE p

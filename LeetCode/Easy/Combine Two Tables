@@ -65,6 +65,7 @@ addressId = 1 contains information about the address of personId = 2.
 
 #Solution by Shlomi Kiko
 #LinkedIn: https://www.linkedin.com/in/shlomikiko/
+
 SELECT p.firstName, p.lastName, a.city, a.state FROM Person AS p
 LEFT JOIN Address AS a
 ON(p.personId = a.personId)

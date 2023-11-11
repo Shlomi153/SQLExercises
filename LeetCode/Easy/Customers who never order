@@ -61,7 +61,7 @@ Output:
 +-----------+
 
 ----------------------------------------------------
-#Solution by Shlomi Kiko
+#Solution by: Shlomi Kiko
 #LinkedIn: https://www.linkedin.com/in/shlomikiko/
 
 SELECT c.name AS Customers FROM Customers AS c

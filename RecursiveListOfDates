@@ -1,0 +1,33 @@
+#Created by Shlomi Kiko
+#LinkedIn: https://www.linkedin.com/in/shlomikiko/
+#Topic: Create list of dates between begin and end date using a recursion
+
+Beautiful example of how recursions can help you out in life :)
+
+Say you wanna make a list of dates for customers such as give all the days between the beginning of a trip till the end of it and put it all in a table.
+
+Pretty cool, just felt like sharing, have a nice day!	
+
+ DECLARE @FirstDay date = '2024-05-07'
+
+ DECLARE @LastDay date = '2024-05-15'
+
+
+
+ ;WITH TripDates_CTE(TripDate) AS 
+
+	(
+
+		SELECT @FirstDay
+
+		UNION ALL
+
+		SELECT DATEADD(DAY, 1, TripDate) AS TripDate
+		FROM TripDates_CTE
+		WHERE TripDate < @LastDay
+
+	)
+
+
+SELECT @FirstDay AS FirstDayOfTrip, @LastDay AS LastDayOfTrip, TripDate
+FROM TripDates_CTE;
